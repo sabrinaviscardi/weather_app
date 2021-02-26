@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(img/background.png);
+    background-repeat: repeat;
+    background-size: 60%;
+    background-color: rgba(240, 240, 239, 0.269);
+    background-blend-mode: multiply;
+}
+
+.container {
+    width: 15rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+
+    background-color: white;
+    padding: 7%;
+    -webkit-box-shadow: 14px 17px 27px 5px rgba(0,0,0,0.15); 
+    box-shadow: 14px 17px 27px 5px rgba(0,0,0,0.15);
+}
+
+.title h1{
+    font-size: 2.7vw;
+    font-weight: 600;
+    text-align: center;
+    color: #293251;
+}
+
+#notification{
+    background-color: #f8eeef;
+    display: none   ;
+    margin-top: 3%;
+    border-radius: 1rem;
+}
+
+.notification p{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.weather-container{
+    /* background-color: #F4F9FF; */
+    border-radius: 5%;
+    text-align: center;
+}
+
+.weather-icon img{
+    width: 30%;
+    display: block;
+    margin: 4% auto auto auto;
+}
+
+.temperature-value p{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    color: #293251;
+}
+
+.temperature-value p span:hover{
+    color:#72B8D4;
+}
+
+.temperature-value span{
+    font-size: 3rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: #293251;
+    cursor: pointer;
+}
+
+.temperature-description{
+    font-size: 0.9rem;
+    font-weight: 00;
+    margin-bottom: 3%;
+    padding: 3%;
+    color: #293251;
+}
+
+.location{
+    font-size: 0.4rem;
+    font-weight: 400;
+    color: #293251;
+}
