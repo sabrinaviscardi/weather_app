@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'am weather_app</h1>
+<h1 align="center">Hi 👋, I am the weather_app</h1>
 
 <h2 align="left">API</h2>
 <p align="left">In order to put into practice API calls, I played and code this web.</p>
