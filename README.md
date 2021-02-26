@@ -7,4 +7,4 @@
 <p align="left">I used HTML5 for markup and CSS3 to style the web product. But most important, I used Javascrpit to get the weather from the API and change icon and value of the Weather.</p>
 <p align="left">This web is responsive! 🤝 </p>
 
-<h2 align="left" text-decoration:"none">How is your day? 🌞</h2>
+<h2 align="left">How is your day? 🌞</h2>
